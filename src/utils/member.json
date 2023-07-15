@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    "nama": "Sidik Affandi",
+    "nim": 2104007,
+    "prodi": "Teknik Mesin"
+  },
+  {
+    "id": 2,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    "nama": "Tri Saptono",
+    "nim": 2005004,
+    "prodi": "Informatika"
+  },
+  {
+    "id": 3,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    "nama": "Khoerul Fikri",
+    "nim": 2001022,
+    "prodi": "Manajemen"
+  },
+  {
+    "id": 4,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    "nama": "Rizqi Hidayat",
+    "nim": 2003016,
+    "prodi": "Agribisnis"
+  },
+  {
+    "id": 5,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    "nama": "Susilo Gesit Widodo",
+    "nim": 2003032,
+    "prodi": "Agribisnis"
+  },
+  {
+    "id": 6,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    "nama": "Dewi Almira Yuniar",
+    "nim": 2001034,
+    "prodi": "Manajemen"
+  },
+  {
+    "id": 7,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    "nama": "Wiwit Setiyaningsih",
+    "nim": 2005027,
+    "prodi": "Informatika"
+  },
+  {
+    "id": 8,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    "nama": "Rheina Friska Gita",
+    "nim": 2001044,
+    "prodi": "Manajemen"
+  },
+  {
+    "id": 9,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    "nama": "Cita Akhmalia Sari",
+    "nim": 2002006,
+    "prodi": "Akuntansi"
+  },
+  {
+    "id": 10,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    "nama": "Lisnaeni Nu'indarti",
+    "nim": 2001003,
+    "prodi": "Manajemen"
+  },
+  {
+    "id": 11,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    "nama": "Nafisatul Hidayah",
+    "nim": 2001040,
+    "prodi": "Manajemen"
+  }
+]
