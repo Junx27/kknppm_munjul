@@ -57,7 +57,7 @@ function Footer() {
       </div>
       <div className="-mt-10">
         <div
-          className={`fixed top-0 left-0 right-0 lg:bg-transparent mb-32 bg-white z-[-1] smooth ${
+          className={`lg:invisible fixed top-0 left-0 right-0 lg:bg-transparent mb-32 bg-white z-[-1] smooth ${
             open ? "top-0" : "top-[-200px]"
           }`}
         >
