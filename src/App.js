@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Router>
         <Routes>
-          <Route exact path="/dokumentasi" element={<Dokumentasi />} />
+          <Route exact path="/" element={<Dokumentasi />} />
           <Route exact path="/member" element={<Member />} />
           <Route exact path="/proker" element={<Proker />} />
         </Routes>

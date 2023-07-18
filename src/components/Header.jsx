@@ -16,23 +16,23 @@ function Header() {
       <div className="lg:mx-7 lg:mt-20 lg:w-5 lg:flex-col mx-5 pt-10 lg:pt-0 flex">
         <div className="text-center my-5 lg:my-10 mx-auto">
           <HomeIcon className="w-5 mx-auto lg:mx-0" />
-          <a className="text-gray-300 text-xs hover:text-indigo-500" href="/">
+          <a className="text-gray-300 text-xs hover:text-yellow-500" href="/">
             Home
           </a>
         </div>
         <div className="text-center my-5 lg:my-10 mx-auto">
           <ChatBubbleBottomCenterIcon className="w-5 mx-auto  lg:mx-0" />
           <a
-            className="text-gray-300 text-xs hover:text-indigo-500"
+            className="text-gray-300 text-xs hover:text-yellow-500"
             href="/dokumentasi"
           >
-            Dokumentasi
+            Planning
           </a>
         </div>
         <div className="text-center my-5 lg:my-10 mx-auto mx-auto">
           <AcademicCapIcon className="w-5 mx-auto lg:mx-0" />
           <a
-            className="text-gray-300 text-xs hover:text-indigo-500"
+            className="text-gray-300 text-xs hover:text-yellow-500"
             href="/member"
           >
             Member
@@ -41,7 +41,7 @@ function Header() {
         <div className="text-center my-5 lg:my-10 mx-auto">
           <FolderPlusIcon className="w-5 mx-auto lg:mx-0" />
           <a
-            className="text-gray-300 text-xs hover:text-indigo-500"
+            className="text-gray-300 text-xs hover:text-yellow-500"
             href="/proker"
           >
             Proker

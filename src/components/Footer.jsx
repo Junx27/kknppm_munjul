@@ -49,9 +49,9 @@ function Footer() {
         <input
           type="text"
           placeholder="Search"
-          className="border border-indigo-500 rounded pl-2"
+          className="border border-yellow-500 rounded pl-2"
         />
-        <button className="bg-indigo-500 px-2 border border-indigo-500 rounded text-white ml-5">
+        <button className="bg-yellow-500 px-2 border border-yellow-500 rounded text-white ml-5">
           Search
         </button>
       </div>
@@ -77,7 +77,7 @@ function Footer() {
                 className="text-gray-300 text-xs hover:text-indigo-500"
                 href="/dokumentasi"
               >
-                Dokumentasi
+                Planning
               </a>
             </div>
             <div className="text-center my-5 lg:my-10 mx-auto mx-auto">
