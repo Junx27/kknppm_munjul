@@ -3,6 +3,7 @@ import logo from "../assets/images/logo.png";
 import {
   Bars2Icon,
   MagnifyingGlassIcon,
+  PhotoIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import {
@@ -49,9 +50,9 @@ function Footer() {
         <input
           type="text"
           placeholder="Search"
-          className="border border-yellow-500 rounded pl-2"
+          className="border border-black rounded pl-2"
         />
-        <button className="bg-yellow-500 px-2 border border-yellow-500 rounded text-white ml-5">
+        <button className="bg-black text-white px-2 border border-black rounded text-white ml-5">
           Search
         </button>
       </div>
@@ -63,12 +64,12 @@ function Footer() {
         >
           <div className="lg:mx-7 lg:mt-20 lg:w-5 lg:flex-col mx-5 pt-10 lg:pt-0 flex">
             <div className="text-center my-5 lg:my-10 mx-auto">
-              <HomeIcon className="w-5 mx-auto lg:mx-0" />
+              <PhotoIcon className="w-5 mx-auto lg:mx-0" />
               <a
                 className="text-gray-300 text-xs hover:text-indigo-500"
                 href="/"
               >
-                Home
+                Dokumentasi
               </a>
             </div>
             <div className="text-center my-5 lg:my-10 mx-auto">

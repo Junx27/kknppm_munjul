@@ -4,7 +4,7 @@ import member from "../utils/member.json";
 function Member() {
   return (
     <div className="lg:mt-20 lg:ml-32 mx-5 mt-20">
-      <h1 className="font-bold lg:text-3xl text-xl bg-black text-white text-center rounded py-2">
+      <h1 className="font-bold lg:text-3xl text-xl text-center rounded py-2">
         Data Anggota KKN-PPM Munjul
       </h1>
       <div className="lg:grid lg:grid-cols-4 lg:gap-2 mt-5">
@@ -29,12 +29,12 @@ function Member() {
         ))}
       </div>
       <div>
-        <h1 className="font-bold lg:text-3xl text-xl bg-black text-white text-center mt-5 rounded py-2">
+        <h1 className="font-bold lg:text-3xl text-xl text-center mt-5 rounded py-2">
           Struktural Organisasi
         </h1>
       </div>
-      <div className="text-center text-yellow-500 mt-5 mb-10 border border-yellow-500 rounded lg:mx-72 pb-5">
-        <span className="border border-lg bg-yellow-500 text-white py-1 px-2 rounded">
+      <div className="text-center text-yellow-500 mt-5 mb-10 rounded lg:mx-72 pb-5">
+        <span className="border border-lg bg-black text-white py-1 px-2 rounded">
           Ketua
         </span>
         <img
@@ -46,8 +46,8 @@ function Member() {
           {member[4].nama}
         </div>
       </div>
-      <div className="text-center text-yellow-500 mt-5 mb-10 border border-yellow-500 rounded lg:mx-72 pb-5">
-        <span className="border border-lg bg-yellow-500 text-white py-1 px-2 rounded">
+      <div className="text-center text-yellow-500 mt-5 mb-10 rounded lg:mx-72 pb-5">
+        <span className="border border-lg bg-black text-white py-1 px-2 rounded">
           Sekertaris
         </span>
         <div className="lg:grid lg:grid-cols-2">
@@ -73,8 +73,8 @@ function Member() {
           </div>
         </div>
       </div>
-      <div className="text-center text-yellow-500 mt-5 mb-10 border border-yellow-500 rounded lg:mx-72 pb-5">
-        <span className="border border-lg bg-yellow-500 text-white py-1 px-2 rounded">
+      <div className="text-center text-yellow-500 mt-5 mb-10 rounded lg:mx-72 pb-5">
+        <span className="border border-lg bg-black text-white py-1 px-2 rounded">
           Bendahara
         </span>
         <img
@@ -86,10 +86,10 @@ function Member() {
           {member[8].nama}
         </div>
       </div>
-      <div className="text-center text-yellow-500 mt-5 mb-10 border border-yellow-500 rounded lg:mx-72 pb-5">
+      <div className="text-center text-yellow-500 mt-5 mb-10 rounded lg:mx-72 pb-5">
         <div className="lg:grid lg:grid-cols-2">
           <div>
-            <span className="border border-lg bg-yellow-500 text-white py-1 px-2 rounded">
+            <span className="border border-lg bg-black text-white py-1 px-2 rounded">
               Divisi Kemasyarakatan
             </span>
             <img
@@ -102,7 +102,7 @@ function Member() {
             </div>
           </div>
           <div>
-            <span className="border border-lg bg-yellow-500 text-white py-1 px-2 rounded">
+            <span className="border border-lg bg-black text-white py-1 px-2 rounded">
               Divisi Pendidikan
             </span>
             <img
@@ -116,8 +116,8 @@ function Member() {
           </div>
         </div>
       </div>
-      <div className="text-center text-yellow-500 mt-5 mb-10 border border-yellow-500 rounded lg:mx-72 pb-5">
-        <span className="border border-lg bg-yellow-500 text-white py-1 px-2 rounded">
+      <div className="text-center text-yellow-500 mt-5 mb-10 rounded lg:mx-72 pb-5">
+        <span className="border border-lg bg-black text-white py-1 px-2 rounded">
           Divisi Media
         </span>
         <div className="lg:grid lg:grid-cols-2">
@@ -143,8 +143,8 @@ function Member() {
           </div>
         </div>
       </div>
-      <div className="text-center text-yellow-500 mt-5 mb-10 border border-yellow-500 rounded lg:mx-72 pb-5">
-        <span className="border border-lg bg-yellow-500 text-white py-1 px-2 rounded">
+      <div className="text-center text-yellow-500 mt-5 mb-10 rounded lg:mx-72 pb-5">
+        <span className="border border-lg bg-black text-white py-1 px-2 rounded">
           Divisi Agama
         </span>
         <img
@@ -156,10 +156,10 @@ function Member() {
           {member[3].nama}
         </div>
       </div>
-      <div className="text-center text-yellow-500 mt-5 mb-10 border border-yellow-500 rounded lg:mx-72 pb-5">
+      <div className="text-center text-yellow-500 mt-5 mb-10 rounded lg:mx-72 pb-5">
         <div className="lg:grid lg:grid-cols-2">
           <div>
-            <span className="border border-lg bg-yellow-500 text-white py-1 px-2 rounded">
+            <span className="border border-lg bg-black text-white py-1 px-2 rounded">
               Divisi Ekonomi
             </span>
             <img
@@ -172,7 +172,7 @@ function Member() {
             </div>
           </div>
           <div>
-            <span className="border border-lg bg-yellow-500 text-white py-1 px-2 rounded">
+            <span className="border border-lg bg-black text-white py-1 px-2 rounded">
               Divisi Kesehatan
             </span>
             <img
