@@ -4,7 +4,7 @@ import member from "../utils/member.json";
 function Member() {
   return (
     <div className="lg:mt-20 lg:ml-32 mx-5 mt-20">
-      <h1 className="font-bold lg:text-3xl text-xl bg-yellow-500 text-center rounded py-2">
+      <h1 className="font-bold lg:text-3xl text-xl bg-black text-white text-center rounded py-2">
         Data Anggota KKN-PPM Munjul
       </h1>
       <div className="lg:grid lg:grid-cols-4 lg:gap-2 mt-5">
@@ -29,7 +29,7 @@ function Member() {
         ))}
       </div>
       <div>
-        <h1 className="font-bold lg:text-3xl text-xl bg-yellow-500 text-center mt-5 rounded py-2">
+        <h1 className="font-bold lg:text-3xl text-xl bg-black text-white text-center mt-5 rounded py-2">
           Struktural Organisasi
         </h1>
       </div>
@@ -97,7 +97,7 @@ function Member() {
               alt=""
               className="w-20 lg:w-32 mx-auto mt-5 rounded-full"
             />
-            <div className="font-bold text-black mx-auto mt-5">
+            <div className="font-bold text-black mx-auto my-5">
               {member[2].nama}
             </div>
           </div>
@@ -167,7 +167,7 @@ function Member() {
               alt=""
               className="w-20 lg:w-32 mx-auto mt-5 rounded-full"
             />
-            <div className="font-bold text-black mx-auto mt-5">
+            <div className="font-bold text-black mx-auto my-5">
               {member[9].nama}
             </div>
           </div>

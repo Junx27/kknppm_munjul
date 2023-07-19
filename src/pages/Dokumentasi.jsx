@@ -26,6 +26,9 @@ function Dokumentasi() {
             <div className="flex justify-between">
               <div className="text-sm text-sm text-gray-400 mt-10 ml-2">
                 {data.waktu}
+                <span className="ml-2 bg-black font-bold px-3 text-white rounded-r-lg">
+                  {data.id}
+                </span>
               </div>
               <div className="inline-flex items-center mt-10 lg:pb-5 pb-10 ml-12">
                 <ChatBubbleBottomCenterIcon className="w-5 mr-2" />
