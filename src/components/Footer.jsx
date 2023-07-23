@@ -2,8 +2,12 @@ import React, { useState } from "react";
 import logo from "../assets/images/logo.png";
 import {
   Bars2Icon,
+  CalendarIcon,
+  CameraIcon,
+  FolderIcon,
   MagnifyingGlassIcon,
   PhotoIcon,
+  UserIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import {
@@ -14,95 +18,57 @@ import {
   HomeIcon,
   TrashIcon,
 } from "@heroicons/react/24/outline";
+import { Link } from "react-router-dom";
 
 function Footer() {
   const [open, setOpen] = useState(false);
   return (
-    <div className="lg:flex lg:justify-between px-5 fixed top-0 left-0 right-0 pt-3 lg:pb-3 items-center bg-white">
-      <div className="flex justify-between items-center lg:flex-none">
-        <div>
-          <img src={logo} alt="" className="w-10" />
-        </div>
-        <div>
-          <h1 className="visible border-b-4 border-sky-500 pb-2 lg:invisible text-xs">
-            KKN-PPM UNPERBA MUNJUL
-          </h1>
-        </div>
-        <div className="lg:invisible" onClick={() => setOpen(!open)}>
-          <Bars2Icon
-            className={`w-5 lg:invisible text-sky-500 ${
-              open ? "invisible" : "visible"
-            }`}
-          />
-          <h1
-            className={`w-5 -mt-5 lg:invisible text-red-500 ${
-              open ? "visible" : "invisible"
-            }`}
-          >
-            X
-          </h1>
-        </div>
-      </div>
-      <h1 className="font-bold text-lg -ml-64 invisible lg:visible">
-        KKN-PPM Unperba Kelompok 2 Desa Munjul Tahun 2023
-      </h1>
-      <div className="invisible lg:visible">
-        <input
-          type="text"
-          placeholder="Search"
-          className="border border-black rounded pl-2"
-        />
-        <button className="bg-black text-white px-2 border border-black rounded text-white ml-5">
-          Search
-        </button>
-      </div>
-      <div className="-mt-10">
-        <div
-          className={`lg:invisible fixed top-0 left-0 right-0 lg:bg-transparent mb-32 bg-white z-[-1] smooth ${
-            open ? "top-0" : "top-[-200px]"
-          }`}
-        >
-          <div className="lg:mx-7 lg:mt-20 lg:w-5 lg:flex-col mx-5 pt-10 lg:pt-0 flex">
-            <div className="text-center my-5 lg:my-10 mx-auto">
-              <PhotoIcon className="w-5 mx-auto lg:mx-0" />
-              <a
-                className="text-gray-300 text-xs hover:text-indigo-500"
-                href="/"
-              >
-                Dokumentasi
-              </a>
-            </div>
-            <div className="text-center my-5 lg:my-10 mx-auto">
-              <ChatBubbleBottomCenterIcon className="w-5 mx-auto  lg:mx-0" />
-              <a
-                className="text-gray-300 text-xs hover:text-indigo-500"
-                href="/dokumentasi"
-              >
-                Planning
-              </a>
-            </div>
-            <div className="text-center my-5 lg:my-10 mx-auto mx-auto">
-              <AcademicCapIcon className="w-5 mx-auto lg:mx-0" />
-              <a
-                className="text-gray-300 text-xs hover:text-indigo-500"
-                href="/member"
-              >
-                Member
-              </a>
-            </div>
-            <div className="text-center my-5 lg:my-10 mx-auto">
-              <FolderPlusIcon className="w-5 mx-auto lg:mx-0" />
-              <a
-                className="text-gray-300 text-xs hover:text-indigo-500"
-                href="/proker"
-              >
-                Proker
-              </a>
-            </div>
+    <>
+      <div className="invisible lg:visible lg:flex lg:justify-between px-5 fixed top-0 left-0 right-0 pt-3 lg:pb-3 items-center bg-white">
+        <div className="flex justify-between items-center lg:flex-none">
+          <div>
+            <img src={logo} alt="" className="w-10" />
           </div>
         </div>
+        <h1 className="font-bold text-lg -ml-64 invisible lg:visible">
+          KKN-PPM Unperba Kelompok 2 Desa Munjul Tahun 2023
+        </h1>
+        <div className="invisible lg:visible">
+          <input
+            type="text"
+            placeholder="Search"
+            className="border border-black rounded pl-2"
+          />
+          <button className="bg-black text-white px-2 border border-black rounded text-white ml-5">
+            Search
+          </button>
+        </div>
       </div>
-    </div>
+      <div className="visible lg:invisible grid grid-cols-4 gap-2 px-5 fixed bottom-0 left-0 right-0 lg:pb-3 items-center bg-white text-gray-500 w-auto">
+        <div className="w-8 py-2 mx-auto">
+          <a href="/">
+            <PhotoIcon />
+            <span className="text-xs">Galeri</span>
+          </a>
+        </div>
+        <div className="w-8 py-2 mx-auto">
+          <FolderIcon />
+          <span className="text-xs">Album</span>
+        </div>
+        <div className="w-8 py-2 mx-auto">
+          <a href="/proker">
+            <ChatBubbleBottomCenterIcon />
+            <span className="text-xs">Detail</span>
+          </a>
+        </div>
+        <div className="w-8 py-2 mx-auto">
+          <a href="/member">
+            <UserIcon />
+            <span className="text-xs">Member</span>
+          </a>
+        </div>
+      </div>
+    </>
   );
 }
 
